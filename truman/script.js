@@ -103,7 +103,8 @@ stream.onclick = function (e) {
   $('#infopop').position({
    my: "left+3 top-1",
     of: e,
-    collision: "flipfit"
+    //collision: "flipfit",
+  within:"window",
 });
 
     Play();
