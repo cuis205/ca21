@@ -180,7 +180,7 @@ $.ajax({
     dataType: "jsonp",
         jsonp : "callback",
         jsonpCallback: "callback"
-        });
+        })
 
 
 
