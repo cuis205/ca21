@@ -175,7 +175,7 @@ function callback(data){
 };
 
 $.ajax({
-    url:"http://api.openweathermap.org/data/2.5/weather?id=5134086&units=imperial&appid=1e830da7191978393386d3d7e98d3d89",
+    url:"https://api.openweathermap.org/data/2.5/weather?id=5134086&units=imperial&appid=1e830da7191978393386d3d7e98d3d89",
     type: "GET",
     dataType: "jsonp",
         jsonp : "callback",
