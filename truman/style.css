@@ -25,8 +25,9 @@ div{
   flex-direction: column;
   position: absolute;
   border: 20px solid black;
-  border-right: 25px solid black;
-border-left: 25px solid black;
+  border-right: 50px solid black;
+  border-left: 50px solid black;
+  border-top: 30px solid black;
 
   /*font-family:'Sudo';*/
   font-family: 'Print';
