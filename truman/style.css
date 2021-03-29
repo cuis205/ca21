@@ -191,7 +191,7 @@ margin-bottom: auto;
 
 #infopop::before {
       content: "";
-      background-image: url('parch.png');
+      background-image: url('parch2.png');
       background-size: cover;
       position: absolute;
       top: 0px;
