@@ -117,9 +117,10 @@ var btn = document.getElementById('close-button');
 };
 
 window.onload = function(){
+  var spin =  document.querySelector('#spin');
   var num = ['40','23','-3','9','-9'];
   var rnum = Math.floor(Math.random()*num.length);
-  $('#spin').css({
+  $(spin).css({
     "-webkit-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
     "-moz-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
   });
