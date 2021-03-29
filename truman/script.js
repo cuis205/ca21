@@ -38,7 +38,7 @@ smith = DATA.sort(function (a, b) {
 
     //images
     var img = document.createElement('img');
-    //img.src = "http://localhost:8000/" + tiles.Bit;   // The image source from JSON array.
+    img.src = tiles.Bit;   // The image source from JSON array.
     el.appendChild(img);
     img.setAttribute("class","spin");
 
