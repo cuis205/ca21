@@ -109,7 +109,7 @@ stream.onclick = function (e) {
 };
 
 $('.objects').mouseleave(function() {
-  $('#infopop').fadeOut(250);
+  $('#infopop').fadeOut(50);
 });
 
 $('#infopop').fadeIn(50);

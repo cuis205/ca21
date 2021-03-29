@@ -68,7 +68,7 @@ img{
   display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 120px;
 }
 
 .nobit{
@@ -92,7 +92,6 @@ margin-bottom: auto;
   max-width: none;
   height:100%;
   display:flex;
-  overflow-x: scroll;
   flex-direction: row;
   position: relative;
   background-color: black;
