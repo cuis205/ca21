@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>truman</title>
-	<link href="http://localhost:8000/style.css" rel="stylesheet" type="text/css"/>
+	<link href="/style.css" rel="stylesheet" type="text/css"/>
 
     <meta charset='utf-8'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script src="http://localhost:8000/script.js"></script>
+    <script src="/script.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -22,7 +22,7 @@
 var DATA;
 
 
-fetch("http://localhost:8000/data.json")
+fetch("/data.json")
 .then(function(blob){ return blob.json(); })
 .then(function(json){
 	DATA = json;
