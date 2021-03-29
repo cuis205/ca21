@@ -33,12 +33,7 @@ smith = DATA.sort(function (a, b) {
     img.src = tiles.Bit;   // The image source from JSON array.
     el.appendChild(img);
     img.setAttribute("id","spin");
-    var num = ['40','23','-3','9','-9'];
-    var rnum = Math.floor(Math.random()*num.length);
-    $('#spin').css({
-      "-webkit-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
-      "-moz-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
-    })
+
 
     //endimage
 
@@ -82,7 +77,12 @@ $('.objects').mouseleave(function() {
 
 $('#infopop').fadeIn(50);
 
-
+var num = ['40','23','-3','9','-9'];
+var rnum = Math.floor(Math.random()*num.length);
+$('#spin').css({
+  "-webkit-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
+  "-moz-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
+})
 
   objname = objects.Name;
    objyear = objects.Year;
