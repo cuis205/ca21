@@ -185,8 +185,21 @@ margin-bottom: auto;
 	max-width:50%;
 	color:black;
 	height:auto;
+  overflow-x: scroll;
 
 	display:none;
+}
+
+#infopop::before {
+      content: "";
+      background-image: url('parch.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
 }
 
 #objinfo{
