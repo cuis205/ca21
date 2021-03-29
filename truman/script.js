@@ -104,7 +104,8 @@ stream.onclick = function (e) {
    my: "left+3 top-1",
     of: e,
     collision: "flipfit",
-  within:window});
+  within:"window"
+});
 
     Play();
 };
