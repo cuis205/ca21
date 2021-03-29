@@ -26,31 +26,23 @@ div{
   position: absolute;
   border: 3px solid white;
 
-  font-family:'Sudo';
+  /*font-family:'Sudo';*/
+  font-family: 'IBM Plex Mono', monospace;
   color:white;
+  font-size: 10pt;
 }
 
 
 .machine{
   height:20%;
   background-color:black;
-  font-size: 10pt;
+  column-count: 3;
+  column-gap: 50px;
+  padding:1.5em;
+  column-width: 30px;
 }
 
-#one{
-  width:33.33%;
-  height:100%;
-  float: left;
-  padding: 1.2em;
-
-}
-#two{
-  width:33.33%;
-  height:100%;
-  float: left;
-  padding: 1.2em;
-}
-#three{
+#one, #two, #three{
   width:33.33%;
   height:100%;
   float: left;
@@ -65,10 +57,35 @@ div{
 
 }
 
-.items{
-  width:900vw;
+img{
   height:100%;
-  background-color: #4158D0;
+}
+
+#spin{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nobit{
+  margin-left: auto;
+  margin-right: auto;
+    display: block;
+}
+
+.sizing{
+width:150px;
+margin-top:auto;
+margin-bottom: auto;
+}
+
+.items{
+  width:1000vw;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  background-color: black;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
@@ -78,7 +95,50 @@ div{
   background-color:black;
 }
 
+.ending{
+  float:right;
+  width:32.3%;
+  padding: 20px;
+  padding-top:30px;
+}
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+}
+
+/*pop*/
+#infopop{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	z-index: 10;
+	width:400px;
+	max-width:50%;
+	color:black;
+	height:auto;
+
+	display:none;
+}
+
+#objinfo{
+	padding:20px 20px;
+	font-size: 10pt;
+	line-height:10pt;
+}
+
+#but {
+	padding:20px 20px 20px;
+}
+
+#close-button{
+	cursor: pointer;
+	border:1px solid black;
+/*	outline: none;*/
+	background:none;
+	font-size: 1.25rem;
+	font-weight:bold;
+
+	float:right;
 }

@@ -2,40 +2,66 @@
 <html>
 <head>
 	<title>truman</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost:8000/style.css" rel="stylesheet" type="text/css"/>
 
     <meta charset='utf-8'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script src="script.js" type="text/javascript"></script>
+    <script src="http://localhost:8000/script.js"></script>
 
-		<script src="typer.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://unpkg.com/intersection-observer"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+<script>
+var DATA;
 
 
+fetch("http://localhost:8000/data.json")
+.then(function(blob){ return blob.json(); })
+.then(function(json){
+	DATA = json;
+	buildPage(DATA);
 
-
+ });
+</script>
 </head>
 <body>
-
 <div class="cont">
+
 
 <!--book-->
 	<div class="machine">
-<div id="one"></div>
-<div id="two"></div>
-<div id="three"></div>
+		<!--<div id="one"></div>
+		<div id="two"></div>
+		<div id="three"></div>-->
+		Imagine, if you can, a small room, hexagonal in shape, like the cell of a bee. It is lighted neither by window nor by lamp, yet it is filled with a soft radiance. There are no apertures for ventilation, yet the air is fresh. There are no musical instruments, and yet, at the moment that my meditation opens, this room is throbbing with melodious sounds. An armchair is in the centre, by its side a reading−desk−that is all the furniture. And in the armchair there sits a swaddled lump of flesh−a woman, about five feet high, with a face as white as a fungus. It is to her that the little room belongs. </br> </br>
+		The woman was confused, and apologized for not having let her fall.
 	</div>
 
 <!--images-->
 	<div class="objects">
-		<div class="items"></div>
+		<div class="items">
+		</div>
 	</div>
 
 <!--footer-->
 <div class="footer">
+<div class="ending"></div>
 </div>
+
+<div id="infopop"><div id="but">
+<button id ="close-button">&times;</button></div>
+
+<div id="objinfo">
+
 </div>
+
 
 </body>
 </html>
