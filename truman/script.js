@@ -108,9 +108,9 @@ stream.onclick = function (e) {
     Play();
 };
 
-$('.objects').mouseleave(function() {
-  $('#infopop').fadeOut(50);
-});
+//$('.objects').mouseleave(function() {
+  //$('#infopop').fadeOut(50);
+//});
 
 $('#infopop').fadeIn(50);
 
