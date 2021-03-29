@@ -34,6 +34,14 @@ smith = DATA.sort(function (a, b) {
     el.appendChild(img);
     img.setAttribute("id","spin");
 
+    var num = ['40','23','-3','9','-9'];
+    var rnum = Math.floor(Math.random()*num.length);
+    $('#spin').css({
+      "-webkit-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
+      "-moz-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
+    });
+
+
 
     //endimage
 
@@ -45,14 +53,6 @@ smith = DATA.sort(function (a, b) {
     console.log(objects.Year);
 
 	el.addEventListener("click",function(){popUp(objects)});
-
-  var num = ['40','23','-3','9','-9'];
-  var rnum = Math.floor(Math.random()*num.length);
-  $('#spin').css({
-    "-webkit-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
-    "-moz-transform": 'rotate(' + (Math.floor(Math.random()*10)-num[rnum]) + 'deg)',
-  })
-
 
   });
 
