@@ -27,8 +27,11 @@ fetch("data.json")
 .then(function(json){
 	DATA = json;
 	buildPage(DATA);
+	spin();
+	inbt();
+	scrall();
 
- });
+});
 </script>
 </head>
 <body>
@@ -36,7 +39,13 @@ fetch("data.json")
 
 
 <!--book-->
+	<div class="he">
+		<div class="time"></div>
+		<div class="divide"></div>
+		<div class="weather"></div>
+	</div>
 	<div class="machine">
+
 		<!--<div id="one"></div>
 		<div id="two"></div>
 		<div id="three"></div>-->
@@ -45,14 +54,22 @@ fetch("data.json")
 	</div>
 
 <!--images-->
-	<div class="objects">
-		<div class="items">
+	<div class="objects" id="scr-el">
+		<div class="items" >
 		</div>
 	</div>
 
 <!--footer-->
 <div class="footer">
-<div class="ending"></div>
+
+
+	<div class="progress-container">
+	    <div class="progress-bar" id="myBar"></div>
+	  </div>
+
+
+<div class="audioam" onclick="amb();">🭬Play</div>
+<div class="ending">People never touched one another. The custom had become obsolete, owing to the Machine.<span class="blinking-cursor">|</span></div>
 </div>
 
 <div id="infopop"><div id="but">

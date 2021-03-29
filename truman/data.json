@@ -5,7 +5,8 @@
     "Description": "Cell Phone used by Henry Paulson",
     "Year": "2008",
     "Name": "Cell Phone used by Henry Paulson",
-    "Link": "https://www.si.edu/object/cell-phone-used-henry-paulson:nmah_1344567?edan_q=walkie%2B&destination=/search/collection-images&searchResults=1&id=nmah_1344567"
+    "Link": "https://www.si.edu/object/cell-phone-used-henry-paulson:nmah_1344567?edan_q=walkie%2B&destination=/search/collection-images&searchResults=1&id=nmah_1344567",
+    "Er": "a"
   },
   {
     "Bit": "bit/iphoneb.png",
@@ -13,7 +14,8 @@
     "Description": "Flat rectangular aluminum and plastic body with rounded corners; front composed of large glass touch-screen with black bands at top and bottom, showing colorful application \"widgets\" (symbols) or functions (number pad, keyboard) when phone is on; dark when off. Volume and ring-tone controls on left side; on/off button on top right; function control (dimple-like depression) on bottom front. On back: cameral lens in upper right corner; Apple logo; black plastic panel at bottom.",
     "Year": "2007",
     "Name": "iPhone (1st generation)",
-    "Link": "https://www.si.edu/object/iphone-1st-generation:chndm_2009-29-1?edan_q=iphone&destination=/search/collection-images&searchResults=1&id=chndm_2009-29-1"
+    "Link": "https://www.si.edu/object/iphone-1st-generation:chndm_2009-29-1?edan_q=iphone&destination=/search/collection-images&searchResults=1&id=chndm_2009-29-1",
+    "Er": "b"
   },
   {
     "Bit": "bit/psatb.png",
@@ -21,7 +23,8 @@
     "Description": "PCsat, developed by U.S. Naval Academy students and launched in 2001, allows amateur users to report and receive position information and messages from specially designed walkie-talkies nearly anywhere in the world. This artifact is an engineering model used to test the thermal and mass properties of the satellite. Note that the antennas are metal strips cut from commercially-available measuring tape.",
     "Year": "2001",
     "Name": "Communications Satellite, PCsat Thermal/Mass Model",
-    "Link": "https://www.si.edu/object/communications-satellite-pcsat-thermalmass-model:nasm_A20040208000?edan_q=mass%2Bcommunication%2B&destination=/search/collection-images&searchResults=1&id=nasm_A20040208000"
+    "Link": "https://www.si.edu/object/communications-satellite-pcsat-thermalmass-model:nasm_A20040208000?edan_q=mass%2Bcommunication%2B&destination=/search/collection-images&searchResults=1&id=nasm_A20040208000",
+    "Er": "c"
   },
   {
     "Bit": "bit/palmb.png",
@@ -29,7 +32,8 @@
     "Description": "Electronic Personal Organizer",
     "Year": "1999",
     "Name": "Palm Pilot",
-    "Link": "https://www.si.edu/object/palm-pilot:nmah_1204846?edan_q=palm%2Bpilot&destination=/search/collection-images&searchResults=1&id=nmah_1204846"
+    "Link": "https://www.si.edu/object/palm-pilot:nmah_1204846?edan_q=palm%2Bpilot&destination=/search/collection-images&searchResults=1&id=nmah_1204846",
+    "Er": "d"
   },
   {
     "Bit": "bit/sharpb.png",
@@ -37,7 +41,8 @@
     "Description": "--",
     "Year": "1998",
     "Name": "Sharp Model TM20 Mobile Email",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1191332"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1191332",
+    "Er": "e"
   },
   {
     "Bit": "bit/jvcb.png",
@@ -45,7 +50,8 @@
     "Description": "--",
     "Year": "1998",
     "Name": "JVC HCE 100 Portable Email Device",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1191337"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1191337",
+    "Er": "f"
   },
   {
     "Bit": "bit/iridiumb.png",
@@ -53,23 +59,26 @@
     "Description": "This satellite is the heart of a space-based communications system called Iridium. Conceived, designed, and built by Motorola, the Iridium system provides wireless, mobile communications through a network of 66 satellites in polar, low-Earth orbits. Inaugurated in November 1998, under the auspices of Iridium LLC, this complex space system allowed callers using hand-held mobile phones and pagers to communicate anywhere in the world--a first in the history of telephony.",
     "Year": "1998",
     "Name": "Communications Satellite, Iridium",
-    "Link": "https://www.si.edu/object/communications-satellite-iridium:nasm_A19990005000?edan_q=communications%2Bsatellite%2B&destination=/search/collection-images&searchResults=1&id=nasm_A19990005000"
+    "Link": "https://www.si.edu/object/communications-satellite-iridium:nasm_A19990005000?edan_q=communications%2Bsatellite%2B&destination=/search/collection-images&searchResults=1&id=nasm_A19990005000",
+    "Er": "g"
   },
   {
     "Bit": "bit/seb.png",
-    "Image": "image/se.jpeg",
+    "Image": "image/se.jpg",
     "Description": "overall: 13 1/2 in x 9 3/4 in x 10 3/4 in; 34.29 cm x 24.765 cm x 27.305 cm",
     "Year": "1988",
     "Name": "Macintosh SE Computer",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1450533"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1450533",
+    "Er": "h"
   },
   {
     "Bit": "bit/starletb.png",
-    "Image": "image/starlet.jpeg",
+    "Image": "image/starlet.jpg",
     "Description": "United States: California, Cupertino",
     "Year": "1984",
     "Name": "Portable Computer, Starlet NEC Portable Computer PC-8401A",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1450533"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1450533",
+    "Er": "i"
   },
   {
     "Bit": "bit/dynatacb.png",
@@ -77,7 +86,8 @@
     "Description": "Motorola produced the DynaTAC cell phone in 1984 after more than a decade of work in cellular research and technology. The Motorola DynaTAC (an abbreviation of Dynamic Adaptive Total Area Coverage) was the first commercially available portable handheld cell phone. The phone was a 9-inches tall, weighed 2.5 pounds, had 30 minutes of battery life, and sold for $4,000. The Federal Communications Commission divided the country into market areas and licensed cellular service to two companies per market, one affiliated with a wired telephone company and one non-wired franchise. Cellular One was the company formed by the American Radio Telephone Service and Motorola to offer cell service in the Washington D.C. area, the company that sold and provided service for this DynaTAC phone.",
     "Year": "1984",
     "Name": "Dynatac Cellular Telephone",
-    "Link": "https://www.si.edu/object/dynatac-cellular-telephone:nmah_1191361?edan_q=cellular%2Btelephone&destination=/search/collection-images&searchResults=1&id=nmah_1191361"
+    "Link": "https://www.si.edu/object/dynatac-cellular-telephone:nmah_1191361?edan_q=cellular%2Btelephone&destination=/search/collection-images&searchResults=1&id=nmah_1191361",
+    "Er": "j"
   },
   {
     "Bit": "bit/trsb.png",
@@ -85,7 +95,8 @@
     "Description": "The Tandy/Radio Shack TRS-80 Model 100 was one of the precursors to the modern laptop. The functions were fairly limited but the size and battery power were well recieved.This computer was actually made by Kyocera, now a brand name recognized worldwide as a manufacturer of popular cell phone and PDA hybrids.",
     "Year": "1983",
     "Name": "TRS-80 Model 100 Microcomputer",
-    "Link": "https://www.si.edu/object/trs-80-model-100-microcomputer:nmah_742373?edan_q=reciever&destination=/search/collection-images&searchResults=1&id=nmah_742373"
+    "Link": "https://www.si.edu/object/trs-80-model-100-microcomputer:nmah_742373?edan_q=reciever&destination=/search/collection-images&searchResults=1&id=nmah_742373",
+    "Er": "k"
   },
   {
     "Bit": "bit/letter1b.png",
@@ -93,7 +104,8 @@
     "Description": "--",
     "Year": "1981",
     "Name": "Letter",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1863513"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_1863513",
+    "Er": "l"
   },
   {
     "Bit": "bit/mcib.png",
@@ -101,7 +113,8 @@
     "Description": "Ally and Gargano, Inc., Print Advertisements, 1962-ca. 1995, Archives Center, National Museum of American History.",
     "Year": "1979",
     "Name": "Mass Communications, Inc., (MCI)",
-    "Link": "https://www.si.edu/object/archives/components/sova-nmah-ac-0938-ref37?edan_q=MCI&destination=/search/collection-images&searchResults=1&id=ebl-1562730134578-1562730134592-2"
+    "Link": "https://www.si.edu/object/archives/components/sova-nmah-ac-0938-ref37?edan_q=MCI&destination=/search/collection-images&searchResults=1&id=ebl-1562730134578-1562730134592-2",
+    "Er": "m"
   },
   {
     "Bit": "bit/apple2b.png",
@@ -109,7 +122,8 @@
     "Description": "The Apple II used a MOS 6502 chip for its central processing unit. It came with 4 KB RAM, but could be extended up to 48 KB RAM. It included a BASIC interpreter and could support graphics and a color monitor. External storage was originally on cassette tape, but later Apple introduced an external floppy disk drive. Among the Apple II's most important features were its 8 expansion slots on the motherboard. These allowed hobbyists to add additional cards made by Apple and many other vendors who quickly sprung up. The boards included floppy disk controllers, SCSI cards, video cards, and CP/M or PASCAL emulator cards.",
     "Year": "1977",
     "Name": "Apple II Personal Computer",
-    "Link": "https://www.si.edu/object/apple-ii-personal-computer:nmah_334638?edan_q=computer&destination=/search/collection-images&searchResults=1&id=nmah_334638"
+    "Link": "https://www.si.edu/object/apple-ii-personal-computer:nmah_334638?edan_q=computer&destination=/search/collection-images&searchResults=1&id=nmah_334638",
+    "Er": "n"
   },
   {
     "Bit": "bit/commscenb.png",
@@ -117,7 +131,8 @@
     "Description": "Operators in the newly renovated headquarters of the communications center on the 4th floor of the National Museum of History and Technology, now known as the National Museum of American History.",
     "Year": "1976",
     "Name": "Communications Center at National Museum of History and Technology",
-    "Link": "https://www.si.edu/object/communications-center-national-museum-history-and-technology:siris_arc_396626?edan_q=communication%2Btechnology&destination=/search/collection-images&searchResults=1&id=siris_arc_396626"
+    "Link": "https://www.si.edu/object/communications-center-national-museum-history-and-technology:siris_arc_396626?edan_q=communication%2Btechnology&destination=/search/collection-images&searchResults=1&id=siris_arc_396626",
+    "Er": "o"
   },
   {
     "Bit": "bit/hdphoneb.png",
@@ -125,7 +140,8 @@
     "Description": "Designer Henry Dreyfuss, American, 1904–1972",
     "Year": "1965",
     "Name": "AT&T Telephone",
-    "Link": "https://www.si.edu/object/telephone:chndm_1972-88-179-2?edan_q=telephone&destination=/search/collection-images&searchResults=1&id=chndm_1972-88-179-2"
+    "Link": "https://www.si.edu/object/telephone:chndm_1972-88-179-2?edan_q=telephone&destination=/search/collection-images&searchResults=1&id=chndm_1972-88-179-2",
+    "Er": "p"
   },
   {
     "Bit": "bit/telstarb.png",
@@ -133,7 +149,8 @@
     "Description": "Launched on July 10, 1962, Telstar 1, developed by the American Telephone and Telegraph Company (AT&T), was the world's first active communications satellite. AT&T used the satellite to test basic features of communications via space.",
     "Year": "1962",
     "Name": "Communications Satellite, Telstar",
-    "Link": "https://www.si.edu/object/communications-satellite-telstar:nasm_A20070113000?edan_q=communications%2Bsatellite%2B&destination=/search/collection-images&searchResults=1&id=nasm_A20070113000"
+    "Link": "https://www.si.edu/object/communications-satellite-telstar:nasm_A20070113000?edan_q=communications%2Bsatellite%2B&destination=/search/collection-images&searchResults=1&id=nasm_A20070113000",
+    "Er": "q"
   },
   {
     "Bit": "bit/hamb.png",
@@ -141,7 +158,8 @@
     "Description": "Amateurs began making home radios to transmit and receive messages early in the 1900s. As part of the 1912 Radio Act, these \"hams\" were assigned to the short-wave part of the radio spectrum. Radio operators around the world learned code, formed clubs, and exchanged cards listing their license numbers.",
     "Year": "1946",
     "Name": "Hallicrafters S-40 radio receiver",
-    "Link": "https://www.si.edu/object/hallicrafters-s-40-radio-receiver:nmah_1271692?edan_q=ham%2Bradio&destination=/search/collection-images&searchResults=1&id=nmah_1271692"
+    "Link": "https://www.si.edu/object/hallicrafters-s-40-radio-receiver:nmah_1271692?edan_q=ham%2Bradio&destination=/search/collection-images&searchResults=1&id=nmah_1271692",
+    "Er": "r"
   },
   {
     "Bit": "bit/letter5b.png",
@@ -149,7 +167,8 @@
     "Description": "--",
     "Year": "1945",
     "Name": "Transcription of Letter from George Inness",
-    "Link": "https://sova.si.edu/details/AAA.mccaeliz#ref823"
+    "Link": "https://sova.si.edu/details/AAA.mccaeliz#ref823",
+    "Er": "s"
   },
   {
     "Bit": "bit/suitletterb.png",
@@ -157,7 +176,8 @@
     "Description": "Dates reflect the Cartier letter (1942 Nov. 16) and the envelope (not scanned, postmarked 1943 Jan. 11). Pène du Bois' letter itself is dated 1942 Nov. 30. Pène du Bois writes to his fiancée Bouché while he is in the army. He tells her about an \"inter-ally\" tennis match he played, answers her questions, and encloses two pieces of correspondence he thinks she will find interesting: one from the editor at Yank magazine which compliments the stories he has written for them, and one from Cartier regarding a ring he purchased for Bouché. The first page is illustrated with a cartoon of a man wearing a suit made of many different fabric patches, with the caption \"Mr. Crashaw the civilian clothing conservation gentleman.\"",
     "Year": "1942",
     "Name": "William Pène du Bois letter to Jane Bouché, New York City, New York",
-    "Link": "https://www.si.edu/object/william-pene-du-bois-letter-jane-bouche-new-york-city-new-york:AAADCD_item_14950?edan_q=letter%20&edan_fq%5B0%5D=%28date:%221870s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29%20OR%20%28date:%221880s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29&destination=/search/collection-images&searchResults=1&id=AAADCD_item_14950"
+    "Link": "https://www.si.edu/object/william-pene-du-bois-letter-jane-bouche-new-york-city-new-york:AAADCD_item_14950?edan_q=letter%20&edan_fq%5B0%5D=%28date:%221870s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29%20OR%20%28date:%221880s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29&destination=/search/collection-images&searchResults=1&id=AAADCD_item_14950",
+    "Er": "t"
   },
   {
     "Bit": "bit/telephone1920b.png",
@@ -165,7 +185,8 @@
     "Description": "Black telephone with large block base and stepped foot, crank on one side. Handset resting on top held by stand with two prongs, straight black cord.",
     "Year": "1920",
     "Name": "Telephone",
-    "Link": "https://www.si.edu/object/telephone:chndm_1994-73-1?edan_q=telephone&destination=/search/collection-images&searchResults=1&id=chndm_1994-73-1"
+    "Link": "https://www.si.edu/object/telephone:chndm_1994-73-1?edan_q=telephone&destination=/search/collection-images&searchResults=1&id=chndm_1994-73-1",
+    "Er": "u"
   },
   {
     "Bit": "bit/passportb.png",
@@ -173,7 +194,8 @@
     "Description": "This special passport was issued by the Department of State to a postal employee during World War I. It was intended to allow him unrestricted passage to England and France where the Post Office Department was establishing a service to support the deployment of U.S. forces abroad. To ensure it was used only by the correct employee--Charles P. Leary--the passport includes a photograph and a physical description. It also includes an explanation of his business abroad and a request that he is treated well and allowed free movement.",
     "Year": "1917",
     "Name": "Special passport for postal employee",
-    "Link": "https://collections.si.edu/search/record/ark:/65665/hm8e96685d6d87e459eb647b5f99623b81e"
+    "Link": "https://collections.si.edu/search/record/ark:/65665/hm8e96685d6d87e459eb647b5f99623b81e",
+    "Er": "v"
   },
   {
     "Bit": "bit/letterweirb.png",
@@ -181,7 +203,8 @@
     "Description": "--",
     "Year": "1884",
     "Name": "Letters to John F. Weir, I-L",
-    "Link": "https://www.si.edu/object/archives/components/sova-aaa-weirweir-ref14?edan_q=letter%20&edan_fq%5B0%5D=%28date:%221870s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29%20OR%20%28date:%221880s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29&destination=/search/collection-images&searchResults=1&id=ebl-1571324413233-1571324413244-2"
+    "Link": "https://www.si.edu/object/archives/components/sova-aaa-weirweir-ref14?edan_q=letter%20&edan_fq%5B0%5D=%28date:%221870s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29%20OR%20%28date:%221880s%22%20AND%20date:%221830s%22%20AND%20date:%221840s%22%20AND%20date:%221850s%22%20AND%20date:%221860s%22%29&destination=/search/collection-images&searchResults=1&id=ebl-1571324413233-1571324413244-2",
+    "Er": "w"
   },
   {
     "Bit": "bit/telephoneexpb.png",
@@ -189,7 +212,8 @@
     "Description": "Alexander Graham Bell demonstrated several experimental telephones at the Philadelphia Centennial Exposition in 1876. This unit features a single electro-magnet and could be used both as transmitter and receiver. Bell approached the problem of transmitting speech differently from other telephone inventors like Elisha Gray and Thomas Edison. They were mostly experienced telegraphers trying to make a better telegraph. Bell's study of hearing and speech more strongly influenced his work.",
     "Year": "1876",
     "Name": "Alexander Graham Bell Experimental Telephone",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_689864"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_689864",
+    "Er": "x"
   },
   {
     "Bit": "bit/directb.png",
@@ -197,7 +221,8 @@
     "Description": "--",
     "Year": "1850",
     "Name": "Direct Writer",
-    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_891354"
+    "Link": "https://americanhistory.si.edu/collections/search/object/nmah_891354",
+    "Er": "y"
   },
   {
     "Bit": "bit/letter2b.png",
@@ -205,7 +230,8 @@
     "Description": "States that he has nearly exhausted the first shipment of stamps sent to him and requests an additional 1,500 5-cent stamps.",
     "Year": "1847",
     "Name": "Letter",
-    "Link": "https://www.si.edu/object/letter:npm_1997.2001.10?edan_q=letter%2B&destination=/search/collection-images&searchResults=1&id=npm_1997.2001.10"
+    "Link": "https://www.si.edu/object/letter:npm_1997.2001.10?edan_q=letter%2B&destination=/search/collection-images&searchResults=1&id=npm_1997.2001.10",
+    "Er": "z"
   },
   {
     "Bit": "bit/letter3b.png",
@@ -213,7 +239,8 @@
     "Description": "Reporting that the stamps ordered on June 1 are ready for delivery. This is the first printing of the 1847 Issue, which was picked-up personally by John Marron, Third Assistant Postmaster General, at the contractor's office in New York City on July 1, 1847. He delivered 60,000 5-cent stamps and 20,000 10-cent stamps to the New York City post office that same day. Consequently, this is the only post office from which a first day cover might some day be found.",
     "Year": "1847",
     "Name": "Letter",
-    "Link": ""
+    "Link": "",
+    "Er": "ao"
   },
   {
     "Bit": "bit/letter4b.png",
@@ -221,7 +248,8 @@
     "Description": "--",
     "Year": "1847",
     "Name": "Letter (typed)",
-    "Link": "https://www.si.edu/object/letter:nmah_847902?edan_q=letter%20&edan_fq%5B0%5D=date:%221830s%22%20OR%20date:%221840s%22%20OR%20date:%221850s%22%20OR%20date:%221860s%22&destination=/search/collection-images&searchResults=1&id=nmah_847902"
+    "Link": "https://www.si.edu/object/letter:nmah_847902?edan_q=letter%20&edan_fq%5B0%5D=date:%221830s%22%20OR%20date:%221840s%22%20OR%20date:%221850s%22%20OR%20date:%221860s%22&destination=/search/collection-images&searchResults=1&id=nmah_847902",
+    "Er": "bo"
   },
   {
     "Bit": "bit/bonnb.png",
@@ -229,6 +257,7 @@
     "Description": "Thurn & Taxis postal letter rate chart for Bonn.",
     "Year": "1725",
     "Name": "Bonn postal letter rate chart",
-    "Link": "https://www.si.edu/object/bonn-postal-letter-rate-chart:npm_0.310642.66?edan_q=letter&edan_fq%5B0%5D=date:%221720s%22&destination=/search/collection-images&searchResults=1&id=npm_0.310642.66"
+    "Link": "https://www.si.edu/object/bonn-postal-letter-rate-chart:npm_0.310642.66?edan_q=letter&edan_fq%5B0%5D=date:%221720s%22&destination=/search/collection-images&searchResults=1&id=npm_0.310642.66",
+    "Er": "co"
   }
 ]
