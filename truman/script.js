@@ -103,16 +103,14 @@ stream.onclick = function (e) {
   $('#infopop').position({
    my: "left+3 top-1",
     of: e,
-    //collision: "flipfit",
-    within:"window"
-});
+    collision: "flipfit" });
 
     Play();
 };
 
 //$('.objects').mouseleave(function() {
   //$('#infopop').fadeOut(50);
-//});
+});
 
 $('#infopop').fadeIn(50);
 
