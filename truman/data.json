@@ -200,8 +200,8 @@
     "Link": "https://americanhistory.si.edu/collections/search/object/nmah_891354"
   },
   {
-    "Bit": "/bit/letter2b.png",
-    "Image": "/image/letter2.jpg",
+    "Bit": "bit/letter2b.png",
+    "Image": "image/letter2.jpg",
     "Description": "States that he has nearly exhausted the first shipment of stamps sent to him and requests an additional 1,500 5-cent stamps.",
     "Year": "1847",
     "Name": "Letter",
@@ -224,8 +224,8 @@
     "Link": "https://www.si.edu/object/letter:nmah_847902?edan_q=letter%20&edan_fq%5B0%5D=date:%221830s%22%20OR%20date:%221840s%22%20OR%20date:%221850s%22%20OR%20date:%221860s%22&destination=/search/collection-images&searchResults=1&id=nmah_847902"
   },
   {
-    "Bit": "/bit/bonnb.png",
-    "Image": "/image/bonn.jpeg",
+    "Bit": "bit/bonnb.png",
+    "Image": "image/bonn.jpeg",
     "Description": "Thurn & Taxis postal letter rate chart for Bonn.",
     "Year": "1725",
     "Name": "Bonn postal letter rate chart",
