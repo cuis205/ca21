@@ -9,12 +9,90 @@
    //});
 
 
+   function buildBook(data){
+   mecha = DATA;
+   console.log(mecha);
+   //Array.from(mecha).forEach((chapters,i) => {
+   //console.log(mecha);
+   //});
+
+   var uno = document.querySelector('.uno');
+   uno.onclick = function (e) {
+     var x = e.pageX,
+         y = e.pageY;
+          $('#bookpop').fadeIn(50);
+
+          var main = document.querySelector("#chaptername");
+          var em = document.querySelector("#booktxt");
+          main.innerHTML = "Main Menu";
+          em.innerHTML = "<i>"+"The Machine Stops"+"</i>"+" "+"is a science fiction short story (12,300 words) by E. M. Forster. The story, set in a world where humanity lives underground and relies on a giant machine to provide its needs, predicted technologies similar to instant messaging and the Internet."
+
+                    opennook();
+   };
+
+   $('#bookpop').draggable({ start: function() {
+
+   $(this).css({transform: "none", top: $(this).offset().top+"px", left:$(this).offset().left+"px"});
+
+   } });
+
+   };
+
+function chapto(buildBook){
+
+$('#booktxt').empty();
+$('#chaptername').empty();
+var chapterone = DATA[0];
+
+ booktxt = document.querySelector('#booktxt');
+ booktxt.innerHTML = chapterone.Text;
+
+ chaname = document.querySelector('#chaptername');
+ chaname.innerHTML = "I." + chapterone.Subtitle;
+  bookop();
+//console.log(chapterone.Chapter);
+};
+
+function chaptw(buildBook){
+
+$('#booktxt').empty();
+$('#chaptername').empty();
+var chaptertwo = DATA[1];
+
+ booktxt = document.querySelector('#booktxt');
+ booktxt.innerHTML = chaptertwo.Text;
+
+ chaname = document.querySelector('#chaptername');
+ chaname.innerHTML = "II." + chaptertwo.Subtitle;
+  bookop();
+//console.log(chapterone.Chapter);
+};
+
+function chapth(buildBook){
+
+$('#booktxt').empty();
+$('#chaptername').empty();
+var chaptertwo = DATA[2];
+
+ booktxt = document.querySelector('#booktxt');
+ booktxt.innerHTML = chaptertwo.Text;
+
+ chaname = document.querySelector('#chaptername');
+ chaname.innerHTML = "III." + chaptertwo.Subtitle;
+  bookop();
+//console.log(chapterone.Chapter);
+};
+
+
+
+//buildBook(chapto);
+
+
 
 function buildPage(data){
 smith = DATA.sort(function (a, b) {
   return a.Year - b.Year;
 });
-
 
   var row;
   // for (var i=0; i<films.length; i++){
@@ -79,15 +157,34 @@ function inbt(){
 
 //sounds
 function Play(){
-    var audio = new Audio("wood_click.ogg");
-    audio.play();
-    audio.volume = 0.3;
+    var audio1 = new Audio("wood_click.ogg");
+    audio1.play();
+    audio1.volume = 0.2;
 }
 //bkg
 function amb() {
     var audio2 = new Audio("Sweden.mp3");
        audio2.play();
+      audio2.volume = 0.3;
      }
+//book sounds
+function opennook() {
+         var audio3 = new Audio("click.ogg");
+            audio3.play();
+            audio3.volume = 0.3;
+          }
+
+          function bookop() {
+                   var audio4 = new Audio("open_flip1.ogg");
+                      audio4.play();
+                      audio4.volume = 0.5;
+                    }
+
+                    function bookclose() {
+                             var audio5 = new Audio("close_put2.ogg");
+                                audio5.play();
+                                audio5.volume = 0.7;
+                              }
 //popUp
 function popUp(objects){
   var stream = document.querySelector('.items');
@@ -95,15 +192,6 @@ stream.onclick = function (e) {
     var x = e.pageX,
         y = e.pageY;
 
- //        $('#infopop').css({
-	// 'left': e.pageX + 250,
-	// 'top': e.pageY +150,});
-
-  //$('#infopop').position({
-   //within:window"
-    //of: e,
-    //collision: "flipfit"
-  //});
 
     Play();
 };
@@ -120,7 +208,7 @@ stream.onclick = function (e) {
 $('#infopop').fadeIn(50);
 
 
-  objname = objects.Name;
+   objname = objects.Name;
    objyear = objects.Year;
    objdes = objects.Description;
    objl = objects.Link;
@@ -153,9 +241,15 @@ $('#infopop').fadeIn(50);
 
 window.onload = function(){
 var btn = document.getElementById('close-button');
-
+var btn2 = document.getElementById('close-button2');
  btn.onclick = function(event) {
   $('#infopop').css("display","none");
+};
+btn2.onclick = function(event) {
+  $('#booktxt').empty();
+  $('#chaptername').empty();
+ $('#bookpop').css("display","none");
+   bookclose();
 };
 
 };

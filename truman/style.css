@@ -174,7 +174,7 @@ margin-bottom: auto;
   margin-right: 10px;
 }
 /*pop*/
-#infopop{
+#infopop, #bookpop{
 	position:fixed;
 	top:50%;
 	left:50%;
@@ -186,9 +186,13 @@ margin-bottom: auto;
 	color:black;
 	height:auto;
       box-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
-	display:none;
+display:none;
 }
 
+
+#bookpop{
+  overflow: hidden;
+}
 #infopop::before {
       content: "";
       background-image: url('parch3.png');
@@ -201,18 +205,38 @@ margin-bottom: auto;
       z-index: -1;
 }
 
-#objinfo{
+#objinfo, #booktxt{
 	padding:20px 20px;
-	font-size: 9pt;
+	font-size: 8pt;
 	line-height:10pt;
+  max-height: 400px;
+  overflow: scroll;
+
 }
 
-#but {
+#chaptername{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+
+#chaptermenu{
+  width:100%;
+}
+
+#filter{
+  display:inline-block;
+  padding:20px 20px;
+  text-decoration: underline;
+  color:blue;
+}
+
+#but, #but2 {
 	padding:20px 20px 20px;
     cursor: grab;
 }
 
-#close-button{
+#close-button, #close-button2{
 	cursor: pointer;
 	border:1px solid black;
 /*	outline: none;*/
@@ -297,7 +321,12 @@ margin-bottom: auto;
   display: flex;
       flex-direction: row;
       align-items: center;
+      color:black;
 
+}
+
+.uno{
+  padding:1.5em;
 }
 
 .time{

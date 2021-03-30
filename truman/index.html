@@ -29,9 +29,16 @@ fetch("data.json")
 	spin();
 	inbt();
 	scrall();
-
-
 });
+
+fetch("book.json")
+.then(function(blob){ return blob.json(); })
+.then(function(json){
+	DATA = json;
+	buildBook(DATA);
+});
+
+
 </script>
 </head>
 <body>
@@ -43,6 +50,8 @@ fetch("data.json")
 		<div class="time"></div>
 		<div class="divide"></div>
 		<div class="weather"></div>
+		<div class="uno"></div>
+
 	</div>
 	<div class="machine">
 
@@ -76,7 +85,20 @@ fetch("data.json")
 <button id ="close-button">&times;</button></div>
 
 <div id="objinfo"></div>
+</div>
 
+<div id="bookpop" class="ui-widget-content"><div id="but2">
+<button id ="close-button2">&times;</button></div>
+
+<div id="chaptername"></div>
+<div id="booktxt"></div>
+<div id="chaptermenu">
+
+	<div class="cone" id="filter" onclick="chapto();" >I</div>
+	<div class="ctwo" id="filter" onclick="chaptw();" >II</div>
+	<div class="cthree" id="filter" onclick="chapth();">III</div>
+
+</div>
 </div>
 </div>
 
