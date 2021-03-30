@@ -167,10 +167,17 @@ function Play(){
 }
 //bkg
 function amb() {
-    var audio2 = new Audio("Sweden.mp3");
-       audio2.play();
-      audio2.volume = 0.3;
-     }
+  let testaud = document.querySelectorAll(".audioam");
+  var audio2 = new Audio("Sweden.mp3");
+      if(audio2.paused){
+    audio2.play();
+    audio2.volume = 0.3;
+    testaud.innerHTML = " Eject";
+  } else {
+    audio2.pause();
+    testaud.innerHTML = " Load Disc";
+  }
+};
 //book sounds
 function opennook() {
          var audio3 = new Audio("click.ogg");
