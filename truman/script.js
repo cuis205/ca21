@@ -42,7 +42,7 @@ function chapto(buildBook){
 
 $('#booktxt').empty();
 $('#chaptername').empty();
-var chapterone = DATA[0];
+var chapterone = mecha[0];
 
  booktxt = document.querySelector('#booktxt');
  booktxt.innerHTML = chapterone.Text;
@@ -57,7 +57,7 @@ function chaptw(buildBook){
 
 $('#booktxt').empty();
 $('#chaptername').empty();
-var chaptertwo = DATA[1];
+var chaptertwo = mecha[1];
 
  booktxt = document.querySelector('#booktxt');
  booktxt.innerHTML = chaptertwo.Text;
@@ -72,7 +72,7 @@ function chapth(buildBook){
 
 $('#booktxt').empty();
 $('#chaptername').empty();
-var chaptertwo = DATA[2];
+var chaptertwo = mecha[2];
 
  booktxt = document.querySelector('#booktxt');
  booktxt.innerHTML = chaptertwo.Text;
