@@ -185,6 +185,7 @@ margin-bottom: auto;
 	max-width:50%;
 	color:black;
 	height:auto;
+  cursor: grab;
 
 	display:none;
 }

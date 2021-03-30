@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="script.js"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="https://unpkg.com/intersection-observer"></script>
@@ -29,7 +29,6 @@ fetch("data.json")
 	spin();
 	inbt();
 	scrall();
-	dragElement();
 
 
 });
@@ -73,7 +72,7 @@ fetch("data.json")
 <div class="ending">People never touched one another. The custom had become obsolete, owing to the Machine.<span class="blinking-cursor">|</span></div>
 </div>
 
-<div id="infopop"><div id="but">
+<div id="infopop" class="ui-widget-content"><div id="but">
 <button id ="close-button">&times;</button></div>
 
 <div id="objinfo"></div>
