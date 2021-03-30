@@ -1,14 +1,17 @@
-//window.onload = function() {
-//var DATA;
-
-//fetch("")
-//.then(function(blob){ return blob.json(); })
-//.then(function(json){
-  //DATA = json;
-  //array2 = buildPage(DATA);
-   //});
-
-
+console.log("⠀⠀⠀⣠⣴⣾⣿⣿⣿⣶⣄⣀⣀⣤⣶⣶⣦⣤⠀⠀⠀⠀⠀
+⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀
+⢀⣼⣿⡟⠉⠉⠉⠉⠉⠛⠻⣿⣿⣿⣿⣿⠿⠟⠛⠳⠂⠀⠀
+⣿⣿⣿⠟⠉⠉⠛⠛⠓⠀⠉⠻⣿⣿⣿⡿⢀⡄⠲⠶⢶⣶⠀
+⣿⣿⣷⣤⣤⣄⣀⣀⡘⠁⠀⣠⣿⣿⣯⡀⢹⡀⢀⣀⣠⡽⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⡟⠁⠀⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀
+⣿⣿⣿⣍⡉⠉⠉⠉⠙⠛⠛⠾⠿⠿⠿⠿⠿⠿⣿⣿⣿⠀⠀
+⠛⠉⠉⠉⠛⠓⠲⢶⣶⣶⣶⣶⣦⣤⣤⣤⣤⣤⣤⡶⠁⠀⠀
+⣴⣾⣿⣿⣿⣷⣦⣄⡈⠙⢿⠿⠛⠋⠉⠉⠉⠙⠁⠀⠀⠀⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⣴⣾⣿⣿⣿⣶⣦⡀⠀⠀⠀
+⡿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣧⣀⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀
+⣀⣴⣶⣦⡄⠉⣿⣿⣿⣿⣿⡟⠉⣉⡉⠙⢻⣿⣿⡟⠀⠀⠀
+⣿⣿⡿⠛⢁⣤⣿⣿⣿⣿⣿⡇⠈⣿⣿⣧⠀⠙⣿⠁");
 
 
    function buildBook(data){
@@ -30,7 +33,7 @@
           em.innerHTML = "<i>"+"The Machine Stops"+"</i>"+" "+"is a science fiction short story (12,300 words) by E. M. Forster. The story, set in a world where humanity lives underground and relies on a giant machine to provide its needs, predicted technologies similar to instant messaging and the Internet."
 
                     opennook();
-            
+
    };
 
    $('#bookpop').draggable({ start: function() {
