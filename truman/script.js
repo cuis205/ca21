@@ -98,10 +98,7 @@ stream.onclick = function (e) {
  //        $('#infopop').css({
 	// 'left': e.pageX + 250,
 	// 'top': e.pageY +150,});
-var but = document.querySelector('#but');
-   $( "#infopop" ).draggable({
-     cursorAt: { left: 5 }
-   });
+
   //$('#infopop').position({
    //within:window"
     //of: e,
@@ -114,7 +111,8 @@ var but = document.querySelector('#but');
 //$('.objects').mouseleave(function() {
   //$('#infopop').fadeOut(50);
 
-
+     $( "#infopop" ).draggable();
+     
 $('#infopop').fadeIn(50);
 
 
