@@ -110,7 +110,7 @@ stream.onclick = function (e) {
 
 //$('.objects').mouseleave(function() {
   //$('#infopop').fadeOut(50);
-});
+
 
 $('#infopop').fadeIn(50);
 
