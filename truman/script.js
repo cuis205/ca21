@@ -167,6 +167,7 @@ function Play(){
 }
 //bkg
 function amb() {
+  $('.audioam').empty();
   let testaud = document.querySelectorAll(".audioam");
   var audio2 = new Audio("Sweden.mp3");
       if(audio2.paused){
