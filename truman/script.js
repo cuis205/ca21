@@ -99,7 +99,7 @@ stream.onclick = function (e) {
 	// 'left': e.pageX + 250,
 	// 'top': e.pageY +150,});
 
-   $( "#but" ).draggable();
+   $( "#infopop" ).draggable();
   $('#infopop').position({
    within: "window"
     //of: e,
