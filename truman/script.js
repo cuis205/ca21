@@ -98,13 +98,15 @@ stream.onclick = function (e) {
  //        $('#infopop').css({
 	// 'left': e.pageX + 250,
 	// 'top': e.pageY +150,});
-
-   $( "#infopop" ).draggable();
-  $('#infopop').position({
-   within:window,
+var but = document.querySelector('#but');
+   $( "#infopop" ).draggable({
+     handle: "but"
+   });
+  //$('#infopop').position({
+   //within:window"
     //of: e,
     //collision: "flipfit"
-  });
+  //});
 
     Play();
 };
