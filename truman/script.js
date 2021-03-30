@@ -101,7 +101,7 @@ stream.onclick = function (e) {
 
    $( "#infopop" ).draggable();
   $('#infopop').position({
-   within: "window"
+   within:window,
     //of: e,
     //collision: "flipfit"
   });
