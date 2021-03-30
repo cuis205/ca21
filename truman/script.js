@@ -101,9 +101,10 @@ stream.onclick = function (e) {
 
    $( "#but" ).draggable();
   $('#infopop').position({
-   my: "left+3 top-1",
-    of: e,
-    collision: "flipfit" });
+   within: "window"
+    //of: e,
+    //collision: "flipfit"
+  });
 
     Play();
 };
