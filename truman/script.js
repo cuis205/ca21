@@ -99,8 +99,9 @@ stream.onclick = function (e) {
 	// 'left': e.pageX + 250,
 	// 'top': e.pageY +150,});
 var but = document.querySelector('#but');
-   $( "#infopop" ).draggable(
-   );
+   $( "#infopop" ).draggable({
+     cursorAt: { left: 5 }
+   });
   //$('#infopop').position({
    //within:window"
     //of: e,
