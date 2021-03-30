@@ -192,7 +192,6 @@ function timmy() {
   var s = d.getSeconds();
   var m = d.getMinutes();
   var h = d.getHours();
-  console.log(d);
   time.innerHTML =
     ("0" + h).substr(-2) + blinky + ("0" + m).substr(-2);
 };
@@ -209,6 +208,7 @@ function scrall(){
 
 
 function dragElement(elmnt) {
+  var elmnt = document.getElementById("but");
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById("but")) {
     // if present, the header is where you move the DIV from:
