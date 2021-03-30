@@ -111,8 +111,12 @@ stream.onclick = function (e) {
 //$('.objects').mouseleave(function() {
   //$('#infopop').fadeOut(50);
 
-     $( "#infopop" ).draggable();
-     
+  $('#infopop').draggable({ start: function() {
+
+  $(this).css({transform: "none", top: $(this).offset().top+"px", left:$(this).offset().left+"px"});
+
+  } });
+
 $('#infopop').fadeIn(50);
 
 
