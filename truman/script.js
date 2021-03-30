@@ -9,9 +9,11 @@
    //});
 
 
+
+
    function buildBook(data){
    mecha = DATA;
-   console.log(mecha);
+   //console.log(mecha);
    //Array.from(mecha).forEach((chapters,i) => {
    //console.log(mecha);
    //});
@@ -28,6 +30,22 @@
           em.innerHTML = "<i>"+"The Machine Stops"+"</i>"+" "+"is a science fiction short story (12,300 words) by E. M. Forster. The story, set in a world where humanity lives underground and relies on a giant machine to provide its needs, predicted technologies similar to instant messaging and the Internet."
 
                     opennook();
+                    console.log("where my elon musk grifters at? also hey 🤨
+
+                    ⠀⠀⠀⣠⣴⣾⣿⣿⣿⣶⣄⣀⣀⣤⣶⣶⣦⣤⠀⠀⠀⠀⠀
+                    ⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀
+                    ⢀⣼⣿⡟⠉⠉⠉⠉⠉⠛⠻⣿⣿⣿⣿⣿⠿⠟⠛⠳⠂⠀⠀
+                    ⣿⣿⣿⠟⠉⠉⠛⠛⠓⠀⠉⠻⣿⣿⣿⡿⢀⡄⠲⠶⢶⣶⠀
+                    ⣿⣿⣷⣤⣤⣄⣀⣀⡘⠁⠀⣠⣿⣿⣯⡀⢹⡀⢀⣀⣠⡽⠀
+                    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⡟⠁⠀⠀
+                    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀
+                    ⣿⣿⣿⣍⡉⠉⠉⠉⠙⠛⠛⠾⠿⠿⠿⠿⠿⠿⣿⣿⣿⠀⠀
+                    ⠛⠉⠉⠉⠛⠓⠲⢶⣶⣶⣶⣶⣦⣤⣤⣤⣤⣤⣤⡶⠁⠀⠀
+                    ⣴⣾⣿⣿⣿⣷⣦⣄⡈⠙⢿⠿⠛⠋⠉⠉⠉⠙⠁⠀⠀⠀⠀
+                    ⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⣴⣾⣿⣿⣿⣶⣦⡀⠀⠀⠀
+                    ⡿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣧⣀⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀
+                    ⣀⣴⣶⣦⡄⠉⣿⣿⣿⣿⣿⡟⠉⣉⡉⠙⢻⣿⣿⡟⠀⠀⠀
+                    ⣿⣿⡿⠛⢁⣤⣿⣿⣿⣿⣿⡇⠈⣿⣿⣧⠀⠙⣿⠁ mucho love ");
    };
 
    $('#bookpop').draggable({ start: function() {
@@ -128,7 +146,7 @@ smith = DATA.sort(function (a, b) {
     img.setAttribute("id",`"${tiles.Er}"`);
     //adds the element to the row
     row.appendChild(el);
-    console.log(objects.Year);
+    //console.log(objects.Year);
 
 	el.addEventListener("click",function(){popUp(objects)});
 
@@ -259,8 +277,8 @@ function callback(data){
  r_far = Math.round((r_temp - 32) * 5 / 9);
  var weat = document.querySelector(".weather");
  r_cloud = data.clouds.all;
-    console.log(r_cloud);
-    console.log(data);
+    //console.log(r_cloud);
+    //console.log(data);
 
   if(r_cloud < 50){
 
