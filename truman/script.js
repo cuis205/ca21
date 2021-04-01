@@ -173,11 +173,11 @@ function amb() {
       if(audio2.paused){
     audio2.play();
     audio2.volume = 0.3;
-      $('.audioam').empty();
+    
     testaud.innerHTML = " Eject";
   } else {
     audio2.pause();
-      $('.audioam').empty();
+
     testaud.innerHTML = " Load Disc";
   }
 };
