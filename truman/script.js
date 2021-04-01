@@ -173,9 +173,9 @@ function amb() {
       if(audio2.paused){
     audio2.play();
     audio2.volume = 0.3;
-    
+
     testaud.innerHTML = " Eject";
-  } else {
+  } else if{
     audio2.pause();
 
     testaud.innerHTML = " Load Disc";
