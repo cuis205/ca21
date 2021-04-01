@@ -168,7 +168,7 @@ function Play(){
 //bkg
 function amb() {
 
-  let testaud = document.querySelectorAll(".audioam");
+  let testaud = document.querySelector("#audioam");
   var audio2 = new Audio("Sweden.mp3");
       if(audio2.paused){
     audio2.play();
