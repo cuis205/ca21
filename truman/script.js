@@ -167,15 +167,17 @@ function Play(){
 }
 //bkg
 function amb() {
-  $('.audioam').empty();
+
   let testaud = document.querySelectorAll(".audioam");
   var audio2 = new Audio("Sweden.mp3");
       if(audio2.paused){
     audio2.play();
     audio2.volume = 0.3;
+      $('.audioam').empty();
     testaud.innerHTML = " Eject";
   } else {
     audio2.pause();
+      $('.audioam').empty();
     testaud.innerHTML = " Load Disc";
   }
 };
