@@ -83,25 +83,57 @@ h2 {
   width: 25%;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 35px;
   border-right:solid 1px black;
 }
 
-.titlebar,
-.bottombar {
+.titlebar
+ {
   height: 35%;
   font-family: p22-mackinac-pro, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
+  
+  position: relative;
 }
 
+.bottombar{
+    height: 35%;
+  position:relative;
+}
+
+.please{
+      position:absolute;
+  bottom:0;
+  width:100%;
+  font-size:13px;
+  
+}
+
+.found{
+  width:30%;
+  display: inline-block;
+}
+
+.coord{
+    width: 68%;
+    display: inline-block;
+    text-align: right;
+}
+
+
+
+
 .infobar {
-  height: 30%;
+  height: 35%;
   width: 100%;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
   text-align: center;
+  
+/*   text-align: justify;
+  text-justify: inter-word; */
 }
 
 .infotext {
@@ -120,11 +152,10 @@ h2 {
 
 }
 
-#header,
-#footer {
+#header, #footer{
   width: 100%;
   height: 3.5%;
-  background-color: green;
+  background-color:transparent;
 }
 
 #but {
@@ -239,4 +270,16 @@ cursor:pointer;
 
 #year{
   display:inline-block;
+}
+
+.hand{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: -5px;
+  
+}
+
+#mod{
+      width: 330px; 
 }
