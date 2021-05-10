@@ -1,7 +1,5 @@
 function buildPage(DATA) {
   gordon = DATA;
-
-
   var row;
 
   Array.from(gordon).forEach((object, i) => {
@@ -85,12 +83,19 @@ de = document.querySelector("#des");
     $("#sidebar").css("background-color", "black");
     $(".titlebar").css("color", "white");
     $(".infotext").css("color", "white");
+  
+    $("#header").css("background-color", "black");
+    $("#footer").css("background-color", "black");
+  
+  
     $("#info").css("color", "white");
     $("#close-button").css("color", "white");
         $("#close-button").css("border", "solid 1px white");
     $(".infobar").css("border-top", "solid 1px white");
       $("#sidebar").css("border-right", "solid 1px white");
     $(".infobar").css("border-bottom", "solid 1px white");
+   $(".please").css("color", "white");
+    document.getElementById('mod').src='white.png';
 }
 
 
@@ -131,10 +136,17 @@ function revert(){
     $(".titlebar").css("color", "black");
     $(".infotext").css("color", "black");
     $("#info").css("color", "black");
+  
+  $("#header").css("background-color", "white");
+  $("#footer").css("background-color", "white");
+  
+    $(".please").css("color", "black");
     $("#close-button").css("color", "black");
     $(".infobar").css("border-top", "solid 1px black");
     $(".infobar").css("border-bottom", "solid 1px black");
    $("#close-button").css("border", "solid 1px black");
+  document.getElementById('mod').src='black.png';
+  
 }
 
 
@@ -146,3 +158,12 @@ function spin(){
     item.style.setProperty('--rotate-amount', rotation+'deg');
   });
 };
+
+
+// function white(){
+//   let hand = document.querySelectorAll(".hand");
+//   var bl = document.createElement('img');
+//   bl.src = "black.png";
+//   hand.appendChild(bl);
+  
+// }
