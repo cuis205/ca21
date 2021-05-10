@@ -1,11 +1,9 @@
 function buildPage(DATA) {
   gordon = DATA;
 
+
   var row;
 
-  // this for-loop operates on each movie, and builds a block for it
-  // for (var i=0; i<films.length; i++){
-  //function scope
   Array.from(gordon).forEach((object, i) => {
     if (i < 4) {
       row = document.querySelector("#row1");
@@ -17,54 +15,128 @@ function buildPage(DATA) {
       row = document.querySelector("#row4");
     } else if (i < 20) {
       row = document.querySelector("#row5");
+
+    }else if (i<21){
+      return true
     }
 
     //makes an element
 
-
+    $(".dw").hide();
     var tiles = gordon[i];
-    var img = document.createElement('img');
-    img.src = tiles.Thumb;
-    img.setAttribute("class","size");
-    row.appendChild(img);
+    var arx = document.createElement('img');
+    arx.src = tiles.Thumb;
+    arx.setAttribute("class","size");
+    row.appendChild(arx);
     // el.innerHTML=tiles.Film;
     //el.setAttribute("class", "sizing");
    // el.setAttribute("id", "filminfo");
     //adds the element to the row
     //row.appendChild(el);
 
-    row.addEventListener("click", function() {
+    arx.addEventListener("click", function() {
       popUp(object);});
   });
 }
 
-function popUp(objects) {
+function popUp(object) {
   window.onclick = function(e) {
-  $("#infopop").fadeIn(350);
+  $(".row").hide(1,function(){
 
-  // filmname = film.Film;
-  // directorname = film.Director;
-  // filmyear = film.Year;
-  // filmcol = film.Colour;
-  // filmgenre = film.Genre;
-  // filmdes = film.Description;
-  // filmwrite = film.Writer;
-  // gender = film.DirGen;
-  // auterat = film.auteurship;
-
-  // movieinfo = document.querySelector("#movieinfo");
-  // infopop = document.querySelector("#infopop");
+  });
 
 
-window.onload = function() {
-  var btn = document.getElementById("close-button");
+    console.log(object);
 
-  btn.onclick = function(event) {
-    $("#infopop").css("display", "none");
-  };
-};
+   titl = object.Name;
+   year = object.Year;
+  des = object.Description;
+    own = object.Owner;
+
+            $("#close-button").show(0);
+          $(".dw").show();
+ti = document.querySelector("#title");
+    ti.innerHTML = titl;
+yr = document.querySelector("#year");
+    yr.innerHTML = year;
+ow = document.querySelector("#own");
+    ow.innerHTML = own;
+de = document.querySelector("#des");
+    de.innerHTML = des;
+
+
+  if(object.Video.includes('n')){
+      var elm = document.querySelector("#full");
+      var gri = document.createElement('img');
+    gri.src = object.Link;
+    gri.setAttribute("class","aight");
+    elm.appendChild(gri);
+
+  console.log('bah');
+}else if (object.Video.includes('y')){
+    var elm = document.querySelector("#full");
+    var video = document.createElement("VIDEO");
+    video.setAttribute("src", `${object.Link}`);
+    video.setAttribute("class","aight");
+    video.controls = true;
+    elm.appendChild(video);
+
+    $("#main").css("background-color", "black");
+    $("#sidebar").css("background-color", "black");
+    $(".titlebar").css("color", "white");
+    $(".infotext").css("color", "white");
+    $("#info").css("color", "white");
+    $("#close-button").css("color", "white");
+        $("#close-button").css("border", "solid 1px white");
+    $(".infobar").css("border-top", "solid 1px white");
+      $("#sidebar").css("border-right", "solid 1px white");
+    $(".infobar").css("border-bottom", "solid 1px white");
+}
+
+
+
   }
 }
+
+
+function bye() {
+  var btn = document.getElementById("close-button");
+  btn.onclick = function (event) {
+
+
+
+ // $(".row").removeClass("bye");
+  $(".dw").hide(1, function(){
+      $(".row").show(0);
+      $("#full").empty(0);
+      $("#title").empty(0);
+      $("#year").empty(0);
+      $("#own").empty(0);
+      $("#close-button").hide(0);
+
+
+  revert();
+
+
+
+
+  });
+  };
+};
+
+function revert(){
+    $("#main").css("background-color", "white");
+    $("#sidebar").css("background-color", "white");
+       $("#sidebar").css("border-right", "solid 1px black");
+    $(".titlebar").css("color", "black");
+    $(".infotext").css("color", "black");
+    $("#info").css("color", "black");
+    $("#close-button").css("color", "black");
+    $(".infobar").css("border-top", "solid 1px black");
+    $(".infobar").css("border-bottom", "solid 1px black");
+   $("#close-button").css("border", "solid 1px black");
+}
+
 
 function spin(){
   let spin = document.querySelectorAll(".size");

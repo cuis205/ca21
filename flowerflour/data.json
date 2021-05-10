@@ -3,160 +3,180 @@
     "Link": "images/gordon.jpg",
     "Name": "Too Clean",
     "Year": "2008",
-    "Description": "\"I got this picture taken when my family was ",
+    "Description": "\"I got this picture taken when my family was visiting the Strong Museum on Halloween. I don't remeber the full story but I thought it was funny because I look goofy.\"",
     "Owner": "Gordon Myers",
-    "Thumb": "thmb/gordon.jpg"
+    "Thumb": "thmb/gordon.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/cb.jpg",
     "Name": "Call 8",
     "Year": "1998-2020",
-    "Description": "",
+    "Description": "Cellino & Barnes was an American personal injury law firm based in Buffalo, New York. It was founded in 1998 by Ross Cellino and Stephen Barnes, and dissolved in 2020 shortly before the death of Stephen Barnes. Growing up in Rochester, advertisments for Cellino and Barnes would exist at every turn. Before \"call 8\", the jingle was \"454-2020\". Satirised through lyrical changes, Cellino and Barnes, regardless of the lawfirms quality, was a staple joke amongst Western New Yorkers. ",
     "Owner": "Cellino and Barnes",
-    "Thumb": "thmb/cb.jpg"
+    "Thumb": "thmb/cb.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/seabreeze.mp4",
     "Name": "Come Get Your Summer",
     "Year": "1990",
-    "Description": "",
+    "Description": "Seabreeze Amusement Park, known locally as Seabreeze, is a historic amusement park in Irondequoit, a suburb of Rochester, New York. It is one of only thirteen trolley parks still operating in the United States. While riding any of the rickety, decades-old rollar coasters, the best part of the summer was the trip to Seabreeze. Like most distinctive jingles, the themesong could be heard between radio slots. \"You ever ride a rollercoaster before? it was an emotional train ride, because i was having fun at a constant rate for the entire duration\"",
     "Owner": "SeaBreeze",
-    "Thumb": "thmb/seabreeze.gif"
+    "Thumb": "thmb/seabreeze.gif",
+    "Video": "y"
   },
   {
     "Link": "images/marks.mp4",
     "Name": "Mark's Pizzeria",
     "Year": "2000s",
-    "Description": "",
+    "Description": "Mark's Pizzeria is a chain restaurant, local to New York State, serving pizza, calzones, subs, and wings. \"Why the fuck is Mark's Pizzeria an international meme now? lol. Mark's used to be the best pizza tho, even if we made fun of the jingle and said it \"feeds you diharrea\" or whatever kids laugh at. I remember eating it all the time at school events or as school lunch before it was Dominos.\" ",
     "Owner": "Mark's Pizzeria",
-    "Thumb": "thmb/marks.gif"
+    "Thumb": "thmb/marks.gif",
+    "Video": "y"
   },
   {
     "Link": "images/harper.jpeg",
     "Name": "Harpers Newspaper",
     "Year": "1862",
-    "Description": "",
+    "Description": "\"I thought that this old newspaper would be interesting to archive. Although I don't recall the fully context of why I own it, it sort of represents the old glory of industrial-age Rochester\" ",
     "Owner": "Michael",
-    "Thumb": "thmb/harper.jpeg"
+    "Thumb": "thmb/harper.jpeg",
+    "Video": "n"
   },
   {
     "Link": "images/tops.mp4",
     "Name": "Tops",
     "Year": "1992",
-    "Description": "",
+    "Description": "Tops Friendly Markets is an American supermarket chain based in Amherst, New York, with stores in New York, Vermont, and northern Pennsylvania. \"No one goes to Tops anymore. Literally. But when you want cheap cookies? Or when you're about to go to the drive through in Avon? Absolutely. It's surreal. It's like Wegmans ugly, third-removed cousin. There's usually no people there. I remember the old jingle that my friends would mess-up in elementary school. It was always \"Tops never mops\" instead of \"Tops never stops\". Perfect environment for nostalgia and probably the worst-best food\". ",
     "Owner": "Tops Grocery",
-    "Thumb": "thmb/tops.gif"
+    "Thumb": "thmb/tops.gif",
+    "Video": "y"
   },
   {
     "Link": "images/weg.mp4",
     "Name": "Wegmans",
     "Year": "1989",
-    "Description": "",
+    "Description": "Wegmans Food Markets, Inc., is a privately held American supermarket chain; it is headquartered in Gates, New York. Founded in 1916 in Rochester, Wegmans has appeared on Fortune's annual \"100 Best Companies to Work For\" list since the list first appeared in 1998. \"How do you describe Wegmans to someone who isn't from Rochester. Like... Yeah. You have it in PA, MA, and NYC....but is it a Rochester Wegmans? Unlikely. There's literally no grocery store that compares and somehow everyone and their brother has some connection to the Wegmans empire. Danny Wegmans has a posse? Probably! Whether you hate it or love it, Wegmans is something that is fundamental to living in Rochester\". ",
     "Owner": "Wegmans",
-    "Thumb": "thmb/weg.gif"
+    "Thumb": "thmb/weg.gif",
+    "Video": "y"
   },
   {
     "Link": "images/beach.mov",
     "Name": "The White Lady's Castle",
     "Year": "2018",
-    "Description": "",
+    "Description": "Before this area became Durand-Eastman park, this was the home of a reclusive woman and her teenaged daughter. Today, Durand-Eastman Park is frequented by many curious locals and ghost hunters, who spend their evenings in the vicinity of the White Lady Castle hoping for a glimpse of this enigmatic entity and retelling the legend of how she came to wander. \"I didn't really know any of this because I'm not really aware of any cultural landmarks in Rochester (unless it's Wegmans) Until I went during senior skip day as a joke to do pseudo-Wiccan activities. Nothing eerie or mysterious ever came from it, but it's really a beautiful place that I visit with friends\"",
     "Owner": "Stephanie Cui",
-    "Thumb": "thmb/gor.gif"
+    "Thumb": "thmb/gor.gif",
+    "Video": "y"
   },
   {
     "Link": "images/artroom.jpg",
     "Name": "Harley Artroom",
     "Year": "2017",
-    "Description": "",
+    "Description": "\"The Harley School artroom is the coziest place on planet earth when it rains. I spent hours here during APs, I was there for the forbidden couch. Parsons was the best, she would let the people who took AP Art (or the ones who had loft desks) stay until 11pm just to draw and work. I wish I could replicate the artroom into every art space ever. Endless materials, skylights, the whole wazoo. I miss it a lot\"",
     "Owner": "Harley School",
-    "Thumb": "thmb/artroom.jpg"
+    "Thumb": "thmb/artroom.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/front.jpg",
     "Name": "The Front Page",
     "Year": "2017",
-    "Description": "",
+    "Description": "\"I took this photo during my final play senior year. It's always hectic and exhausting and you always get the three night speech from the director. I'm sure this was the second night speech where it's the \"dangerous night\". Some of my best and worst memories were made during theatre in highschool but they're still memories nonetheless\"  ",
     "Owner": "Maria Scipione",
-    "Thumb": "thmb/front.jpg"
+    "Thumb": "thmb/front.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/hotel.jpg",
     "Name": "Cadillac Hotel",
     "Year": "2016",
-    "Description": "",
+    "Description": "Hotel Cadillac was an old hotel on Chestnut Street downtown. It was probably a high-class place during its heyday in the 1930's - 1940's. Now it is sadly in poor condition and functions more as a home for transients than a true hotel. \"If you ever drove, walked, or breathed near the Cadillac Hotel, something weird was happening. I used to hear all the time that the Hillside Strangler lived there when he was actively killing people. 'Seedy' is an understatement, but it was probably more hyped than it actually was. I remember people would always 'plan' to live there overnight as a dare but everyone always chickened out because it was like the Cecil Hotel of Rochester. Probably just suburbanite tho\"",
     "Owner": "Tate Kuelling",
-    "Thumb": "thmb/hotel.jpg"
+    "Thumb": "thmb/hotel.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/joywave.jpeg",
     "Name": "How Do You Feel Now? ",
     "Year": "2015",
-    "Description": "",
+    "Description": "Joywave is an American indie rock band from Rochester, New York, formed in 2010. Their lineup consists of Daniel Armbruster (vocals), Joseph Morinelli (guitar), Benjamin Bailey (keyboards), and Paul Brenner (drums).",
     "Owner": "Joywave",
-    "Thumb": "thmb/joywave.jpeg"
+    "Thumb": "thmb/joywave.jpeg",
+    "Video": "n"
   },
   {
     "Link": "images/lego.jpg",
     "Name": "Lego Brick Wall ",
     "Year": "1980s",
-    "Description": "",
+    "Description": "Founded in 1917 by Harriet Bentley, The Harley School was first called “The Children’s University School of Rochester.” The name Harley comes from the first three letters of her first name and the last three letters of her last name. \"In the courtyard there's this really out of place and maybe even unnoticed lego masonry. I always thought it was funny and hope it's still there\"",
     "Owner": "Harley School",
-    "Thumb": "thmb/lego.jpg"
+    "Thumb": "thmb/lego.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/little.jpg",
     "Name": "Little Theatre",
     "Year": "2017",
-    "Description": "",
+    "Description": "The Little Theatre in Rochester, New York, commonly known as \"The Little\" is a movie theatre located on historic East Avenue in downtown Rochester, New York and a modest non-profit multiplex specializing in art film, including independent and foreign productions outside the United States. \"The Little was literally the best place to go after school to see weird shit. Most of the time it was just me and a bunch of old people watching an obscure, foreign-film and absolutely not getting a single moment. Even though I live kinda far away, the best place for movies is always the Little. Even if it's snowing and you're spending hours to find parking and you're kinda cold watching the movie cause it's just a cement building\"",
     "Owner": "Sarah Moore",
-    "Thumb": "thmb/little.jpg"
+    "Thumb": "thmb/little.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/lovel.jpg",
     "Name": "Love Letter",
     "Year": "Unknown",
-    "Description": "",
+    "Description": "\"I found this letter between a couple in my own personal archives and thought it was extremely lovely. It's difficult to read but the letter is from a husband writing to his wife about when he will return. It's not dated but the calligraphy is really beautiful and references travelling via local landmarks like the Erie Canal\"",
     "Owner": "Michael",
-    "Thumb": "thmb/lovel.jpg"
+    "Thumb": "thmb/lovel.jpg",
+    "Video": "n"
   },
   {
-    "Link": "images/seab.jpg",
+    "Link": "images/seab.png",
     "Name": "Seabreeze Bracelet",
     "Year": "2015",
-    "Description": "",
+    "Description": "\"Seabreeze night was awesome because oliver hit me in the face with a fried dough (yearly) so i got free sugar in my eyes. Seabreeze night was a breeze because the good times just rolled so easy, it was like it was God’s plan.\" ",
     "Owner": "Gordon Myers",
-    "Thumb": "thmb/seab.png"
+    "Thumb": "thmb/seab.png",
+    "Video": "n"
   },
   {
     "Link": "images/sheet.jpg",
     "Name": "L'Arlésienne",
     "Year": "Unknown",
-    "Description": "",
+    "Description": "\"I got this sheet music after playing in All County\". ",
     "Owner": "Jasmine Cui",
-    "Thumb": "thmb/sheet.jpg"
+    "Thumb": "thmb/sheet.jpg",
+    "Video": "n"
   },
   {
     "Link": "images/solar.jpg",
     "Name": "Solar Eclipse ",
     "Year": "2017",
-    "Description": "",
+    "Description": "\"The solar eclipe was really cool. I don't remember who gave me the sunglasses but I look really cool. As a person who likes science, I think this should be documented because it was a big moment in Rochester. (and we don't usually get those...Unless it's snow)\"",
     "Owner": "Sam Cui",
-    "Thumb": "thmb/solar.jpg"
+    "Thumb": "thmb/solar.jpg",
+    "Video": "n"
   },
   {
-    "Link": "images/druse.jpg",
+    "Link": "images/druse.png",
     "Name": "Druse Album Release",
     "Year": "2016",
-    "Description": "",
+    "Description": "\"The album release for Druse's \"The Way We Ache\" was the first punk/hardcore/w/e show I went to. It was extremely cold and extremely late at night. I was fucking stoked to say the least. It was my second year in Highschool and I hadn't really done anything cool besides, in my head, listen to Druse. My friend Dylan first introduced me to them when we were getting Baja Blasts at 1am. Sounds super corny but it was lifechanging. Dylan really introduced me to music that has changed my life forever. I got punched in the face and everyone was super nice.\" ",
     "Owner": "Druse",
-    "Thumb": "thmb/druse.png"
+    "Thumb": "thmb/druse.png",
+    "Video": "n"
   },
   {
     "Link": "images/jelly.jpg",
     "Name": "Jellyfish Appear",
     "Year": "2014-2018",
-    "Description": "",
+    "Description": "\"I stole this. Kinda funny. They still don't know who did it\"",
     "Owner": "Unknown",
-    "Thumb": "thmb/jelly.jpg"
+    "Thumb": "thmb/jelly.jpg",
+    "Video": "n"
   }
 ]
