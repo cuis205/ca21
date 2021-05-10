@@ -1,0 +1,162 @@
+[
+  {
+    "Link": "images/gordon.jpg",
+    "Name": "Too Clean",
+    "Year": "2008",
+    "Description": "\"I got this picture taken when my family was ",
+    "Owner": "Gordon Myers",
+    "Thumb": "thmb/gordon.jpg"
+  },
+  {
+    "Link": "images/cb.jpg",
+    "Name": "Call 8",
+    "Year": "1998-2020",
+    "Description": "",
+    "Owner": "Cellino and Barnes",
+    "Thumb": "thmb/cb.jpg"
+  },
+  {
+    "Link": "images/seabreeze.mp4",
+    "Name": "Come Get Your Summer",
+    "Year": "1990",
+    "Description": "",
+    "Owner": "SeaBreeze",
+    "Thumb": "thmb/seabreeze.gif"
+  },
+  {
+    "Link": "images/marks.mp4",
+    "Name": "Mark's Pizzeria",
+    "Year": "2000s",
+    "Description": "",
+    "Owner": "Mark's Pizzeria",
+    "Thumb": "thmb/marks.gif"
+  },
+  {
+    "Link": "images/harper.jpeg",
+    "Name": "Harpers Newspaper",
+    "Year": "1862",
+    "Description": "",
+    "Owner": "Michael",
+    "Thumb": "thmb/harper.jpeg"
+  },
+  {
+    "Link": "images/tops.mp4",
+    "Name": "Tops",
+    "Year": "1992",
+    "Description": "",
+    "Owner": "Tops Grocery",
+    "Thumb": "thmb/tops.gif"
+  },
+  {
+    "Link": "images/weg.mp4",
+    "Name": "Wegmans",
+    "Year": "1989",
+    "Description": "",
+    "Owner": "Wegmans",
+    "Thumb": "thmb/weg.gif"
+  },
+  {
+    "Link": "images/beach.mov",
+    "Name": "The White Lady's Castle",
+    "Year": "2018",
+    "Description": "",
+    "Owner": "Stephanie Cui",
+    "Thumb": "thmb/gor.gif"
+  },
+  {
+    "Link": "images/artroom.jpg",
+    "Name": "Harley Artroom",
+    "Year": "2017",
+    "Description": "",
+    "Owner": "Harley School",
+    "Thumb": "thmb/artroom.jpg"
+  },
+  {
+    "Link": "images/front.jpg",
+    "Name": "The Front Page",
+    "Year": "2017",
+    "Description": "",
+    "Owner": "Maria Scipione",
+    "Thumb": "thmb/front.jpg"
+  },
+  {
+    "Link": "images/hotel.jpg",
+    "Name": "Cadillac Hotel",
+    "Year": "2016",
+    "Description": "",
+    "Owner": "Tate Kuelling",
+    "Thumb": "thmb/hotel.jpg"
+  },
+  {
+    "Link": "images/joywave.jpeg",
+    "Name": "How Do You Feel Now? ",
+    "Year": "2015",
+    "Description": "",
+    "Owner": "Joywave",
+    "Thumb": "thmb/joywave.jpeg"
+  },
+  {
+    "Link": "images/lego.jpg",
+    "Name": "Lego Brick Wall ",
+    "Year": "1980s",
+    "Description": "",
+    "Owner": "Harley School",
+    "Thumb": "thmb/lego.jpg"
+  },
+  {
+    "Link": "images/little.jpg",
+    "Name": "Little Theatre",
+    "Year": "2017",
+    "Description": "",
+    "Owner": "Sarah Moore",
+    "Thumb": "thmb/little.jpg"
+  },
+  {
+    "Link": "images/lovel.jpg",
+    "Name": "Love Letter",
+    "Year": "Unknown",
+    "Description": "",
+    "Owner": "Michael",
+    "Thumb": "thmb/lovel.jpg"
+  },
+  {
+    "Link": "images/seab.jpg",
+    "Name": "Seabreeze Bracelet",
+    "Year": "2015",
+    "Description": "",
+    "Owner": "Gordon Myers",
+    "Thumb": "thmb/seab.jpg"
+  },
+  {
+    "Link": "images/sheet.jpg",
+    "Name": "L'Arlésienne",
+    "Year": "Unknown",
+    "Description": "",
+    "Owner": "Jasmine Cui",
+    "Thumb": "thmb/sheet.jpg"
+  },
+  {
+    "Link": "images/solar.jpg",
+    "Name": "Solar Eclipse ",
+    "Year": "2017",
+    "Description": "",
+    "Owner": "Sam Cui",
+    "Thumb": "thmb/solar.jpg"
+  },
+  {
+    "Link": "images/druse.jpg",
+    "Name": "Druse Album Release",
+    "Year": "2016",
+    "Description": "",
+    "Owner": "Druse",
+    "Thumb": "thmb/druse.jpg"
+  },
+  {
+    "Link": "images/jelly.jpg",
+    "Name": "Jellyfish Appear",
+    "Year": "2014-2018",
+    "Description": "",
+    "Owner": "Unknown",
+    "Thumb": "thmb/jelly.jpg"
+  }
+]
