@@ -2,42 +2,80 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Of Flour & Flowers</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="script.js"></script>
     <script src="https://d3js.org/d3.v6.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/qvw8din.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qvw8din.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+	<script>
+		var DATA;
+	fetch("data.json")
+	.then(function(blob){ return blob.json(); })
+	.then(function(json){
+		DATA = json;
+		buildPage(DATA);
+    spin();
+	 });
+
+</script>
+
   </head>
   <body>
     <div class="cont">
+      <!--header-->
+      <div id="header"></div>
 
-<!--header-->
-      <div id="header">
-      </div>
+      <div class="env">
+        <!--sidebar-->
+        <div id="sidebar">
+          <div class="titlebar"><i>Of</i> FLOUR & FLOWERS</div>
+          <div class="infobar">
+            <span class="infotext">
+              The city of Rochester forms the core of a much larger metropolitan
+              area with a population of around 1.1 million people, across six
+              counties. (FILLER TEXT FILLER TEXT FILLER TEXT)
+            </span>
+          </div>
+          <div class="bottombar"></div>
+        </div>
 
-<div class="env">
-<!--sidebar-->
-      <div id="sidebar">
-        <div class="titlebar"><i>Of</i> FLOUR & FLOWERS</div>
-        <div class="infobar">
-<span class="infotext">
-  The city of Rochester forms the core of a much larger metropolitan area with a population of around 1.1 million people, across six counties. (FILLER TEXT FILLER TEXT FILLER TEXT)
-</span>
-</div>
-        <div class="bottombar"></div>
-      </div>
+        <!--player-->
+        <div id="main">
 
-<!--player-->
-      <div id="main">
-      </div>
 
-</div>
-<!--footer-->
-      <div id="footer">
+<div class="row" id="row1"></div>
+
+<div class="row" id="row2"></div>
+
+<div class="row" id="row3"></div>
+
+<div class="row" id="row4"></div>
+
+<div class="row" id="row5"></div>
+
+
+
+
+         <!--hidden-->
+        <div class="hidden" id="info">
+              <button id ="close-button" class="hidden">&times;</button>
+               <div class="hidden" id="title">d</div>
+               <div class="hidden" id="year">ds</div>
+               <div class="hidden" id="own">ds</div>
+              <div class="hidden" id="des">dss</div>
+          </div>
+        <div class="hidden" id="full"></div>
+        <!--hidden-->
+
+        </div>
       </div>
-</div>
+      <!--footer-->
+      <div id="footer"></div>
+    </div>
   </body>
 </html>
